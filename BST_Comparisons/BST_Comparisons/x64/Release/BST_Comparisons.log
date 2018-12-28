@@ -1,0 +1,9 @@
+﻿  BST_Comparisons.cpp
+BST_Comparisons.cpp(24): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  BST_Comparisons.cpp(24): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  Generating code
+  3 of 210 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  BST_Comparisons.vcxproj -> C:\Users\Christian\Documents\College Documents\EECS 2510 Spring 2018\BST_Comparisons\x64\Release\TREES.exe

@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  SpanTree.cpp
+c:\users\christian\documents\college documents\eecs 2510 spring 2018\span\span\spantree.cpp(19): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  c:\users\christian\documents\college documents\eecs 2510 spring 2018\span\span\spantree.cpp(19): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  SPAN.cpp
+c:\users\christian\documents\college documents\eecs 2510 spring 2018\span\span\span.cpp(20): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  c:\users\christian\documents\college documents\eecs 2510 spring 2018\span\span\span.cpp(20): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  Generating Code...
+c:\users\christian\documents\college documents\eecs 2510 spring 2018\span\span\spantree.cpp(272): warning C4715: 'SpanTree::Find_Set': not all control paths return a value
+  SPAN.vcxproj -> C:\Users\Christian\Documents\College Documents\EECS 2510 Spring 2018\SPAN\Debug\SPAN.exe

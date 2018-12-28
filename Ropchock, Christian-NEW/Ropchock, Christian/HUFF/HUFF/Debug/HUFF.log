@@ -1,0 +1,6 @@
+﻿  Huffman.cpp
+c:\users\christian\documents\college documents\eecs 2510 spring 2018\huff\huff\huffman.cpp(374): warning C4018: '<': signed/unsigned mismatch
+c:\users\christian\documents\college documents\eecs 2510 spring 2018\huff\huff\huffman.cpp(522): warning C4018: '<': signed/unsigned mismatch
+c:\users\christian\documents\college documents\eecs 2510 spring 2018\huff\huff\huffman.cpp(552): warning C4018: '<': signed/unsigned mismatch
+c:\users\christian\documents\college documents\eecs 2510 spring 2018\huff\huff\huffman.cpp(573): warning C4018: '<': signed/unsigned mismatch
+  HUFF.vcxproj -> C:\Users\Christian\Documents\College Documents\EECS 2510 Spring 2018\HUFF\Debug\HUFF.exe

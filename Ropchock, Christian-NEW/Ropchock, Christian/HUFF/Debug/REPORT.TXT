@@ -1,0 +1,144 @@
+03/08/2018  05:22 PM             4,162 HUFF-TEST.bat
+03/09/2018  11:44 AM             4,267 HUFF-TEST-No-Defaults.bat
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -t  R:\Bible.txt 
+4432375 bytes read; 510 bytes written in 1.114 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -t  R:\Hunchback.txt 
+1081476 bytes read; 510 bytes written in 0.604 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -t "R:\War and Peace.txt" 
+3272004 bytes read; 510 bytes written in 0.940 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -e R:\Bible.txt           R:\Bible1.huf 
+4432375 bytes read; 2566309 bytes written (42.10% compression) in 25.254 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -e R:\Hunchback.txt       R:\Hunchback1.huf 
+1081476 bytes read; 618204 bytes written (42.83% compression) in 5.593 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -e "R:\War and Peace.txt"  
+3272004 bytes read; 1863266 bytes written (43.05% compression) in 16.169 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -et  R:\Bible.txt           R:\Hunchback.htree         R:\Bible2.huf 
+4432375 bytes read; 2674864 bytes written (39.65% compression) in 23.236 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -et "R:\War and Peace.txt"  R:\Bible.htree            "R:\War and Peace2.huf" 
+3272004 bytes read; 2275552 bytes written (30.45% compression) in 20.206 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -et  R:\hunchback.txt      "R:\War and Peace.htree"    R:\hunchback2.huf 
+1081476 bytes read; 630401 bytes written (41.70% compression) in 5.591 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -d  R:\Bible1.huf           R:\Bible1.txt 
+2566309 bytes read; 4432375 bytes written (42.10% compression) in 0.0 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -d  R:\Bible2.huf           R:\Bible2.txt 
+2674864 bytes read; 4432375 bytes written (39.65% compression) in 0.0 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -d  R:\Bible-HUF.LGT        R:\Bible-LGT.txt 
+2566306 bytes read; 4432373 bytes written (42.10% compression) in 0.0 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -d  R:\hunchback1.huf       R:\hunchback1.txt 
+618204 bytes read; 1081476 bytes written (42.83% compression) in 0.0 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -d  R:\hunchback2.huf       R:\hunchback2.txt 
+630401 bytes read; 1081476 bytes written (41.70% compression) in 0.0 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -d "R:\War and Peace.huf"  "R:\War and Peace1.txt" 
+1863266 bytes read; 3272004 bytes written (43.05% compression) in 0.0 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF  -d "R:\War and Peace2.huf" "R:\War and Peace2.txt" 
+2275552 bytes read; 3272004 bytes written (30.45% compression) in 0.0 seconds
+
+Comparing files R:\Bible.txt and R:\BIBLE1.TXT
+FC: no differences encountered
+
+Comparing files R:\Bible.txt and R:\BIBLE2.TXT
+FC: no differences encountered
+
+Comparing files R:\Bible.txt and R:\BIBLE-LGT.TXT
+FC: R:\Bible.txt longer than R:\BIBLE-LGT.TXT
+
+
+Comparing files R:\Hunchback.txt and R:\HUNCHBACK1.TXT
+FC: no differences encountered
+
+Comparing files R:\Hunchback.txt and R:\HUNCHBACK2.TXT
+FC: no differences encountered
+
+Comparing files R:\War and Peace.txt and R:\WAR AND PEACE1.TXT
+FC: no differences encountered
+
+Comparing files R:\War and Peace.txt and R:\WAR AND PEACE2.TXT
+FC: no differences encountered
+
+
+03/10/2018  11:32 PM         2,566,309 Bible1.huf
+03/10/2018  11:33 PM         2,674,864 Bible2.huf
+
+03/10/2018  11:32 PM           618,204 Hunchback1.huf
+03/10/2018  11:33 PM           630,401 hunchback2.huf
+
+03/10/2018  11:32 PM         1,863,266 War and Peace.huf
+03/10/2018  11:33 PM         2,275,552 War and Peace2.huf
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -e R:\Victoria.mkv 
+613537933 bytes read; 613538444 bytes written (-0.00% compression) in 5117.511 seconds
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -d R:\Victoria.huf R:\Victoria2.mkv 
+613538444 bytes read; 613537932 bytes written (-0.00% compression) in 0.2 seconds
+
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>fc /b   R:\Victoria.mkv R:\Victoria2.mkv 
+Comparing files R:\Victoria.mkv and R:\VICTORIA2.MKV
+FC: R:\Victoria.mkv longer than R:\VICTORIA2.MKV
+
+
+These tests should all fail for one reason or another:
+------------------------------------------------------------------
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF
+Invalid command input.------------------------------------------------------------------
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -x R:\Bible.txt 
+Invalid command input.------------------------------------------------------------------
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -e R:\Bible.txt R:\Bible2.huf R:\Bible3.huf 
+4432375 bytes read; 2566309 bytes written (42.10% compression) in 25.252 seconds
+------------------------------------------------------------------
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -t R:\Bible.txt R:\Bible2.huf R:\Bible3.huf 
+4432375 bytes read; 510 bytes written in 1.109 seconds
+------------------------------------------------------------------
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -d 
+Error: File 2 not Specified. For usage of -d command, use -h for help.
+------------------------------------------------------------------
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -e 
+Error: Not enough files specified.
+------------------------------------------------------------------
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -t 
+Error: File1 and File2 can't be the same files.
+------------------------------------------------------------------
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -et 
+Error: Not enough files specified.
+------------------------------------------------------------------
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -d R:\Bible.huf 
+Error: File 2 not Specified. For usage of -d command, use -h for help.
+------------------------------------------------------------------
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -d R:\Bible.huf R:\Bible2.txt R:\Bible3.txt 
+-1 bytes read; 0 bytes written (inf% compression) in 0.0 seconds
+------------------------------------------------------------------
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -e R:\$$NOFILE.txt  
+The input file specified wasn't found.
+------------------------------------------------------------------
+
+E:\LCCC\EECS 2510 - Non-Linear Data Structures\Spring 2018\Labs\Lab 2 - Huffman\Student Submissions\Ropchock, Christian\HUFF\Debug>HUFF -e R:\Bible.txt Y:\Bible.huf 
+4432375 bytes read; 0 bytes written (100.0% compression) in 1.107 seconds
+
+============================ TEST COMPLETE ============================

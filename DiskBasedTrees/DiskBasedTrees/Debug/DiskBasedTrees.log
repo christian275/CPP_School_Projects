@@ -1,0 +1,13 @@
+﻿  DiskBasedTrees.cpp
+c:\users\christian\documents\college documents\eecs 2510 spring 2018\diskbasedtrees\diskbasedtrees\diskbasedtrees.cpp(20): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  c:\users\christian\documents\college documents\eecs 2510 spring 2018\diskbasedtrees\diskbasedtrees\diskbasedtrees.cpp(20): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  BTree.cpp
+c:\users\christian\documents\college documents\eecs 2510 spring 2018\diskbasedtrees\diskbasedtrees\btree.cpp(19): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  c:\users\christian\documents\college documents\eecs 2510 spring 2018\diskbasedtrees\diskbasedtrees\btree.cpp(19): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+c:\users\christian\documents\college documents\eecs 2510 spring 2018\diskbasedtrees\diskbasedtrees\btree.cpp(350): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
+  AVL.cpp
+c:\users\christian\documents\college documents\eecs 2510 spring 2018\diskbasedtrees\diskbasedtrees\avl.cpp(23): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  c:\users\christian\documents\college documents\eecs 2510 spring 2018\diskbasedtrees\diskbasedtrees\avl.cpp(23): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+c:\users\christian\documents\college documents\eecs 2510 spring 2018\diskbasedtrees\diskbasedtrees\avl.cpp(533): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
+  Generating Code...
+  DiskBasedTrees.vcxproj -> C:\Users\Christian\Documents\College Documents\EECS 2510 Spring 2018\DiskBasedTrees\Debug\DiskBasedTrees.exe

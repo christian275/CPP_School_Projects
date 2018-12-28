@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  AVL.cpp
+AVL.cpp(23): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  AVL.cpp(23): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+AVL.cpp(533): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
+  BTree.cpp
+BTree.cpp(18): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  BTree.cpp(18): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+BTree.cpp(349): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
+  DiskBasedTrees.cpp
+DiskBasedTrees.cpp(20): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  DiskBasedTrees.cpp(20): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  Generating code
+  All 226 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DiskBasedTrees.vcxproj -> C:\Users\Christian\Documents\College Documents\EECS 2510 Spring 2018\DiskBasedTrees\Release\DiskBasedTrees.exe
